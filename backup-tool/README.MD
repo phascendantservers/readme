@@ -91,6 +91,31 @@ This suite includes `watch_dog.exe` and `go-bot-discord.exe` for managing and au
 
 1. **Start `watch_dog.exe`**: This utility handles starting and monitoring `go-bot-discord.exe`. Running `watch_dog.exe` will automatically launch `go-bot-discord.exe` and manage its operation.
 
+## Discord Bot Commands
+
+Once the bot is running, you can use the following commands in the Discord channel where the bot is active:
+
+- **`/search playername`**: Searches for the specified player and shows their EOS ID.
+  
+  Example:
+  ```
+  /search player123
+  ```
+
+- **`/list mapname eos.arkprofile`**: Lists the backup files (`.zip`) that contain the specified `eos.arkprofile` for the given map.
+
+  Example:
+  ```
+  /list TheIsland eos.arkprofile
+  ```
+
+- **`/restore mapname back.zip eos.arkprofile`**: Restores the `eos.arkprofile` from the specified backup zip file for the given map.
+
+  Example:
+  ```
+  /restore TheIsland backup_2024-09-05.zip eos.arkprofile
+  ```
+
 ## Notes
 
 - **File Extensions**: The `extensions` field in `config.json` specifies which file types to include in the backup.

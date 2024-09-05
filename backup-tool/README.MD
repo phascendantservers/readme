@@ -1,6 +1,6 @@
 # Backup Automation Tool
 
-This suite includes `watch_dog.exe` and `go-bot-discord.exe` for managing and automating backups for ARK: Survival Evolved maps. `watch_dog.exe` is responsible for starting and monitoring `go-bot-discord.exe`, which handles the actual backup operations.
+This suite includes `watch_dog.exe` and `go-bot-discord.exe` for managing and automating backups for ARK: Survival Ascended maps. `watch_dog.exe` is responsible for starting and monitoring `go-bot-discord.exe`, which handles the actual backup operations.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ This suite includes `watch_dog.exe` and `go-bot-discord.exe` for managing and au
 - `watch_dog.exe` and `go-bot-discord.exe` executables
 - A Discord bot token
 - MySQL database credentials
-- Relevant ARK: Survival Evolved backup directories
+- Relevant ARK: Survival Ascended backup directories
 
 ## Setup Instructions
 
